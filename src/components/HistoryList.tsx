@@ -15,7 +15,7 @@ export default function HistoryList() {
         const data = await getMeals();
         setMeals(data);
       } catch (err) {
-        console.error("履歴の取得に失敗:", err);
+        console.error("展歴の取得に失敗:", err);
       } finally {
         setLoading(false);
       }

@@ -75,7 +75,7 @@ export default function MealDetail({ meal }: MealDetailProps) {
           </div>
         </div>
 
-        {/* 相棒コメント（�xき出し） */}
+        {/* 相棒コメント（吹き出し） */}
         <div className="relative rounded-2xl bg-amber-50 px-4 py-3">
           <div className="absolute -top-2 left-4 h-4 w-4 rotate-45 bg-amber-50" />
           <p className="text-sm leading-relaxed text-stone-700">

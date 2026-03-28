@@ -26,7 +26,7 @@ export async function saveMeal(input: SaveMealInput): Promise<string> {
 }
 
 /**
- * meals コレクションから全履歴を取得（新しい順）
+ * meals コレクションから全展歴を取得（新しい順）
  */
 export async function getMeals(): Promise<MealHistory[]> {
   const q = query(collection(db, "meals"), orderBy("createdAt", "desc"));
