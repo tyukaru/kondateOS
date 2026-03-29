@@ -3,7 +3,7 @@ import HistoryList from "@/components/HistoryList";
 
 export default function HistoryPage() {
   return (
-    <div className="min-h-dvh px-5 py-6">
+    <div className="min-h-dvh px-5 pb-10 pt-6">
       {/* ヘッダー */}
       <div className="mb-6 flex items-center justify-between">
         <Link
@@ -12,13 +12,10 @@ export default function HistoryPage() {
         >
           ←
         </Link>
-        <h1 className="text-lg font-bold text-stone-800">
-          料理の履歴
-        </h1>
-        <div className="w-9" />
+        <h1 className="text-xl font-bold text-stone-800">料理の履歴</h1>
+        <div className="w-9" /> {/* スペーサー */}
       </div>
 
-      {/* 履歴リスト */}
       <HistoryList />
     </div>
   );

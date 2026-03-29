@@ -26,7 +26,7 @@ export default function HomePage() {
           パーソナル献立OS
         </h1>
         <p className="mt-1 text-sm text-stone-500">
-          今日の気分にあわせて、3秒で献立を決めよう
+          今日の気分にあわせて、3秒で㌮立を決めよう
         </p>
       </div>
 
